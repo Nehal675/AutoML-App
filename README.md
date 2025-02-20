@@ -48,6 +48,7 @@ Project Structure
 │── 📜 README.md                # Project documentation
 ├── 📜models/              # Directory for saved trained models
 │       ├── best_model.pkl   # Best model saved after training
+
 Dependencies
 
 •Python 
