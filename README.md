@@ -52,12 +52,12 @@ Run the Streamlit App:
 
 ## Dependencies
 
-• Python 
-• Streamlit
-• Pandas, NumPy
-• Seaborn, Matplotlib
-•PyCaret
-•Scikit-learn
+- Python 
+- Streamlit
+- Pandas, NumPy
+- Seaborn, Matplotlib
+- PyCaret
+- Scikit-learn
 
 ## Contributing
 
