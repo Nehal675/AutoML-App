@@ -6,13 +6,13 @@ This project is a Streamlit-based web application designed to simplify machine l
 
 ## Features
 
-• Upload CSV datasets for quick analysis.
-•Automated data preprocessing, including handling missing values, removing constant and high-cardinality columns.
-•Preprocessing step and ensuring categorical consistency.
-•Exploratory Data Analysis (EDA) with summary statistics and visualizations.
-•AutoML with PyCaret, supporting both classification and regression tasks.
-•Model comparison to find the most effective algorithm.
-•Download trained model for deployment.
+- Upload CSV datasets for quick analysis.
+- Automated data preprocessing, including handling missing values, removing constant and high-cardinality columns.
+- Preprocessing step and ensuring categorical consistency.
+- Exploratory Data Analysis (EDA) with summary statistics and visualizations.
+- AutoML with PyCaret, supporting both classification and regression tasks.
+- Model comparison to find the most effective algorithm.
+- Download trained model for deployment.
 
 
 ## Installation
@@ -41,13 +41,20 @@ Run the Streamlit App:
 ## Project Structure
 
 📂 AutoML-App/
+
 │── 📜 app.py                 # Main Streamlit App (Handles UI)
+
 │── 📜 pipeline.py            # ML Pipeline (Preprocessing, Model Training, EDA & Visualization)
+
 │── 📜 utils.py               # Utility Functions (File Handling)
+
 │── 📜 requirements.txt       # Dependencies
+
 │── 📜 README.md              # Project Documentation
+
 ├── 📂 models/                # Directory for saved trained models
-│       ├── best_model.pkl    # Best model saved after training
+
+   │       ├── best_model.pkl    # Best model saved after training
 
 
 ## Dependencies
