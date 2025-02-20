@@ -30,13 +30,13 @@ Run the Streamlit App:
 
 ## Workflow
 
-1.Upload a CSV dataset.
-2.Data Cleaning to handle missing values and remove unnecessary columns .
-3.Data Preprocessing to ensure categorical consistency.
-4.Select the target variable for classification or regression.
-5.Perform EDA to explore the dataset.
-6.Train models .
-7.Download the best model, saved in the models directory, for later use.
+1. Upload a CSV dataset.
+2. Data Cleaning to handle missing values and remove unnecessary columns .
+3. Data Preprocessing to ensure categorical consistency.
+4. Select the target variable for classification or regression.
+5. Perform EDA to explore the dataset.
+6. Train models .
+7. Download the best model, saved in the models directory, for later use.
 
 ## Project Structure
 
@@ -52,10 +52,10 @@ Run the Streamlit App:
 
 ## Dependencies
 
-•Python 
-•Streamlit
-•Pandas, NumPy
-•Seaborn, Matplotlib
+• Python 
+• Streamlit
+• Pandas, NumPy
+• Seaborn, Matplotlib
 •PyCaret
 •Scikit-learn
 
