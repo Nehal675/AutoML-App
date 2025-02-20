@@ -4,7 +4,7 @@
 
 This project is a Streamlit-based web application designed to simplify machine learning experimentation using PyCaret. It provides a user-friendly interface for loading datasets, preprocessing data, running automated machine learning (AutoML) workflows, comparing models, and exporting the best-performing model for future use.
 
-Features
+## Features
 
 • Upload CSV datasets for quick analysis.
 •Automated data preprocessing, including handling missing values, removing constant and high-cardinality columns.
@@ -15,7 +15,7 @@ Features
 •Download trained model for deployment.
 
 
-Installation
+## Installation
 
 1. Clone the Repository:
    git clone https://github.com/Nehal675/AutoML-App.git
@@ -23,12 +23,12 @@ Installation
 2. Install Dependencies:
    pip install -r requirements.txt
 
-Usage
+## Usage
 
 Run the Streamlit App:
    streamlit run app.py
 
-Workflow
+## Workflow
 
 1.Upload a CSV dataset.
 2.Data Cleaning to handle missing values and remove unnecessary columns .
@@ -38,7 +38,7 @@ Workflow
 6.Train models .
 7.Download the best model, saved in the models directory, for later use.
 
-Project Structure
+## Project Structure
 
 📂 AutoML-App/
 │── 📜 app.py                   # Main Streamlit App (Handles UI)
@@ -49,7 +49,7 @@ Project Structure
 ├── 📜models/              # Directory for saved trained models
 │       ├── best_model.pkl   # Best model saved after training
 
-Dependencies
+## Dependencies
 
 •Python 
 •Streamlit
@@ -58,10 +58,10 @@ Dependencies
 •PyCaret
 •Scikit-learn
 
-Contributing
+## Contributing
 
 Contributions are welcome! Feel free to fork the repository, create a feature branch, and submit a pull request.
 
-License
+## License
 
 This project is open-source under the MIT License.
